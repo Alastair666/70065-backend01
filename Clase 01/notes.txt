@@ -19,6 +19,8 @@ Cybergrafia:
 /**** Comandos ****/
 -git init : Inicializar un repositorio
 -git status : Estatus de archivos
+-git add . : Para añadir todo al repositorio
+-npm i : Instala todas las dependencias
 
 
 
