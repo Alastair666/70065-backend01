@@ -1,3 +1,5 @@
 const socket = io()
-socket.emit("message", "Soy el msj enviado")
+
+const txt = document.getElementById("mensaje")
+socket.emit("message", txt)
 

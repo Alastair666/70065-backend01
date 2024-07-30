@@ -28,7 +28,8 @@ const socketServer = new Server(httpServer)
 socketServer.on("connection", socket => {
     console.log("Nuevo cliente conectado")
     socket.on("message", data=>{
-        console.log(`Soy la data: ${data}`)
+      console.log("Funciona Evento Socket")  
+      console.log(data)
     })
 })
 
